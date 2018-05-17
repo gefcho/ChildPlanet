@@ -51,7 +51,7 @@ h6 {
 }
 
 section {
-  padding: 8rem 0;
+  padding: 3rem 0;
 }
 
 .section-heading {
@@ -167,8 +167,12 @@ img::-moz-selection {
 }
 
 header.masthead {
-  padding-top: 10rem;
-  padding-bottom: calc(10rem - 56px);
+  height: 100vh;
+  min-height: 650px;
+  padding-top: 0;
+  padding-bottom: 0;
+  /*padding-top: 10rem;*/
+  /*padding-bottom: calc(10rem - 56px);*/
   background-image: url("../img/header-6.jpg");
   background-position: center center;
   -webkit-background-size: cover;
@@ -193,6 +197,9 @@ header.masthead p {
 @media (min-width: 768px) {
   header.masthead p {
     font-size: 1.15rem;
+  }
+  section {
+    padding: 8rem 0;
   }
 }
 
@@ -309,4 +316,8 @@ header.masthead p {
 
 .btn-primary:active, .btn-primary:focus {
   box-shadow: 0 0 0 0.2rem rgba(240, 95, 64, 0.5) !important;
+}
+
+#portfolio img.img-fluid {
+  width: 100%;
 }
