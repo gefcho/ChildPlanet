@@ -321,3 +321,7 @@ header.masthead p {
 #portfolio img.img-fluid {
   width: 100%;
 }
+
+header .pb300 {
+  padding-bottom: 300px;
+}

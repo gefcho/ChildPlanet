@@ -18,6 +18,9 @@
 .block-items {
 	cursor: default;
 }
+.block-items h4 {
+	margin-bottom: 1.5rem;
+}
 /*Изменяем внешний вид элементов управления (точки) */
 .owl-theme .owl-dots .owl-dot span {
 	width: 14px;
@@ -37,8 +40,7 @@
 .owl-my-nav .owl-next{
 	position: absolute;
 	width: 60px;
-	top:34%;
-	font-size: 100px;
+	font-size: 86px;
 	z-index: 20;
 	cursor:pointer;
 	opacity: 0.5;
