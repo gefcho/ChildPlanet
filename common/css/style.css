@@ -275,6 +275,13 @@ header .pb300 {
 #blog-modal-1 p {
   text-indent: 20px;
 }
+.two-childs {
+  max-width: 64px;
+  height: 64px;
+  background-image: url(../../common/img/icons/two-childs.svg);
+  background-size: 100%;
+  margin: 0 auto;
+}
 
 /* START: FOOTER */
 #footer{
