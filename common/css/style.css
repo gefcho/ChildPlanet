@@ -283,6 +283,24 @@ header .pb300 {
   margin: 0 auto;
 }
 
+/* START: ANIMATION */
+.scale-in {
+  -webkit-transition: all .3s ease-in-out;
+  -moz-transition: all .3s ease-in-out;
+  -ms-transition: all .3s ease-in-out;
+  -o-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+}
+.scale-in:focus, .scale-in:hover {
+  opacity:.9;
+  -webkit-transform:scale(1.01);
+  -moz-transform:scale(1.01);
+  -ms-transform:scale(1.01);
+  -o-transform:scale(1.01);
+  transform:scale(1.01);
+}
+/* END: ANIMATION */
+
 /* START: FOOTER */
 #footer{
 	background-color: #325C6A;
