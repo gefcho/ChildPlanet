@@ -1,4 +1,4 @@
-//jquery.nicescroll 3.5.4
+//jquery.nicescroll 3.7.6
 (function($) {
 
 $(document).ready(function(){
@@ -6,13 +6,15 @@ $(document).ready(function(){
 		background: 'none repeat scroll 0 0 rgba(0, 0, 0, 0.2)',
 		scrollspeed: 50,
 		mousescrollstep: 50,
-		cursorwidth: 6,
+		cursorwidth: "6px",
 		cursorborder: 0,
 		cursorcolor: '#f05f40',
 		autohidemode: false,
 		zindex: 9999999,
 		horizrailenabled: false,
-		cursorborderradius: 0
+		cursorborderradius: 0,
+		autohidemode: true,
+		hidecursordelay: 400
 	});
 });
 
@@ -21,13 +23,15 @@ $(document).ready(function(){
 		background: 'none repeat scroll 0 0 rgba(0, 0, 0, 0.2)',
 		scrollspeed: 50,
 		mousescrollstep: 50,
-		cursorwidth: 4,
+		cursorwidth: "4px",
 		cursorborder: 0,
 		cursorcolor: '#f05f40',
 		autohidemode: false,
 		zindex: 9999999,
 		horizrailenabled: false,
-		cursorborderradius: 0
+		cursorborderradius: 0,
+		autohidemode: true,
+		hidecursordelay: 400
 	});
 });
 
