@@ -254,7 +254,7 @@ header.masthead p {
   background-color: #ee4b28 !important;
 }
 .btn-primary:active, .btn-primary:focus {
-  box-shadow: 0 0 0 0.2rem rgba(240, 95, 64, 0.5) !important;
+  box-shadow: none;
 }
 #portfolio img.img-fluid {
   width: 100%;
@@ -463,3 +463,17 @@ header .pb300 {
 	}
 }
 /* END: TESTIMONIAL */
+/* START: SCROLLBAR */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-thumb {
+  background: #f05f40;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(240, 95, 64, 0.5);
+}
+::-webkit-scrollbar-track {
+  background: none repeat scroll 0 0 rgba(0, 0, 0, 0.2);
+}
+/* END: SCROLLBAR */
